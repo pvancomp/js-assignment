@@ -1,7 +1,14 @@
 let score = [];
 
+alert("You are about to play the game of your life!");
+alert("THERE IS NO WAY OUT!!!");
+alert("You will get 2 chances to enter an answer.");
+alert("If you don't enter an answer, you lose the round");
+alert("You cannot quit, until you OR the computer wins 5 rounds");
+alert("THERE IS NO WAY OUT!!!");
+
 function playerChoice() {
-  let playerMove = prompt("Type 'rock', 'paper' or 'scissors':").toLowerCase();
+  let playerMove = prompt("Type 'rock', 'paper' or 'scissors':");
   if (
     playerMove !== "rock" &&
     playerMove !== "paper" &&
